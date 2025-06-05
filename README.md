@@ -2,6 +2,8 @@
 
 ![Project flow chart](images/lms-system-design.PNG)
 
+![Project flow chart](images/lms-folder-structure.png)
+
 ## About :
 Hey there! This is my second semester console based java project. It develops using advanced java concepts it briefly demostrates the use of java concepts such as **OOP**, **access modifiers**, **Exception Handling**, **Package Management**, **Database using JDBC**, to effectively store the data of objects and display it on console user i have built **custom data structure** which works just like **linked list**. Below is the function of each package:
 1) data_structure : contains logic of custom data structure
