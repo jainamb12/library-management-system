@@ -5,13 +5,17 @@
 ![Project flow chart](images/lms-folder-structure.png)
 
 ## About :
-Hey there! This is my second semester console based java project. It develops using advanced java concepts it briefly demostrates the use of java concepts such as **OOP**, **access modifiers**, **Exception Handling**, **Package Management**, **Database using JDBC**, to effectively store the data of objects and display it on console user i have built **custom data structure** which works just like **linked list**. Below is the function of each package:
-1) data_structure : contains logic of custom data structure
-2) models : contains classes of each object to get and set values through getter and setter methods
-3) services : contains logic of each operation to be performed on objects like **CRUD operation** and **add into data structure** etc.
-4) utils : establish connection with Mysql using JDBC
-5) main file : contains main class to run the program
-You can use the project from both ends i.e. **user end** and **admin end**. Each has its own set of operations.
+This **Library Management System** is a console-based Java application developed during my second semester. It showcases advanced Java concepts including **Object-Oriented Programming (OOP), access modifiers, exception handling, package management,** and **JDBC for database interaction**. The system effectively stores and manages library data, displaying information directly in the console. A **custom data structure**, functioning similarly to a **linked list**, is implemented for **efficient object storage**.
+
+The system is designed for both user and administrative access, each with its own set of operations.
+
+The project is organized into distinct packages, each serving a specific purpose:
+
+-**data_structure**: Contains the core logic for the custom data structure, mimicking a linked list.
+-**models**: Houses the classes for various objects (e.g., Book, User), providing getter and setter methods for data access and modification.
+-**services**: Implements the business logic for operations on objects, including CRUD (Create, Read, Update, Delete) operations and integration with the custom data structure.
+-**utils**: Manages the database connection using JDBC to a MySQL database.
+-**main file**: Contains the Main class, serving as the entry point for running the application.
 
 ## Installation
 1. Clone the repo:
@@ -20,7 +24,7 @@ You can use the project from both ends i.e. **user end** and **admin end**. Each
    ```
 2. Navigate into the project directory:
    ```sh
-   cd yourproject
+   cd src
    ```
 3. Install Requirements:
    ```sh
